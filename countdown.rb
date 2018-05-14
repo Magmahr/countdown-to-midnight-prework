@@ -7,7 +7,7 @@ def countdown(n)
     if n == 1
       return "1 SECOND!"
     end  
-    n = n - 1
+    n -= 1
   end  
  return "HAPPY NEW YEAR!"
 end
