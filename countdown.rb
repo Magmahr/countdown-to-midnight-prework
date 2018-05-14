@@ -1,13 +1,13 @@
 #write your code here
 
-def countdown(countdown)
+def countdown(count)
   aim = 0
-  while countdown > aim
-  puts "#{countdown} SECONDS!"
-    if countdown == 1
+  while count > aim
+  puts "#{count} SECONDS!"
+    if count == 1
       puts "1 SECOND!"
     end  
-    countdown -= 1
+    count -= 1
   end  
   puts "HAPPY NEW YEAR!"
 end
