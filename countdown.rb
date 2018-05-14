@@ -1,8 +1,8 @@
 #write your code here
 
-def countdown(count)
+def countdown(n)
   aim = 0
-  while count > aim
+  while n > aim
   puts "#{count} SECONDS!"
   sleep 1
     if count == 1
