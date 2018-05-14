@@ -15,12 +15,8 @@ end
 def countdown_with_sleep(n)
   aim = 0
   while n > aim
-  puts "#{n} SECONDS!"
+  puts "#{n} SECOND(S)!"
   sleep 1
-    if n == 1
-      puts "1 SECOND!"
-      sleep 1
-    end  
     n -= 1
   end 
   sleep 1
