@@ -3,9 +3,9 @@
 def countdown(n)
   aim = 0
   while n > aim
-  return "#{n} SECONDS!"
+    puts "#{n} SECONDS!"
     if n == 1
-      return "1 SECOND!"
+      puts "1 SECOND!"
     end  
     n -= 1
   end  
