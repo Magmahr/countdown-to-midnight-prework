@@ -7,7 +7,7 @@ def countdown(countdown)
     if countdown == 1
       puts "1 SECOND!"
     end  
-    final_countdown -= 1
+    countdown -= 1
   end  
   puts "HAPPY NEW YEAR!"
 end
