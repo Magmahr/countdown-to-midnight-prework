@@ -4,6 +4,7 @@ def countdown(count)
   aim = 0
   while count > aim
   puts "#{count} SECONDS!"
+  sleep 1
     if count == 1
       puts "1 SECOND!"
     end  
